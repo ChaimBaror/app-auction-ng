@@ -1,0 +1,37 @@
+<p>gallery works!</p>
+
+<!-- <div  class="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd"> -->
+        <div class="columns is-mobile is-multiline is-centered">
+                
+    <div *ngFor="let i of array" class="column">
+          <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img src="..\assets\logo6.gif" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-48x48">
+                        <img src="..\assets\logo3.gif" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-4">{{i.name}}</p>
+                      <p class="subtitle is-6">@</p>
+                    </div>
+                  </div>
+              
+                  <div class="content">
+                  יאללה מכירה פומבית המחיר הגובה זכה אין להציע פחות מדולר אמריקאי
+                    <a>@bulmaio</a>.
+                    <a href="#">by now</a> <a href="#">100$</a>
+                    <br>
+                    <time datetime="2020-1-1">11:09 PM - 1 Jan 2020</time>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+    </div>
